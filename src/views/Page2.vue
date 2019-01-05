@@ -1,6 +1,5 @@
 <template>
-
-  <section class="section">
+    <section class="section">
     <div class="container">
       <h1 class="title">Section 1</h1>
       <h2 class="subtitle">
@@ -14,5 +13,4 @@
       </h2>
     </div>
   </section>
-
 </template>
