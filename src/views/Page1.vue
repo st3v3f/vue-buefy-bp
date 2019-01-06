@@ -15,6 +15,7 @@
     </div>
     <div class="column">
       Fourth column
+      <StoreData/>
     </div>
   </div>
   </section>
@@ -25,12 +26,14 @@
  <script>
   import DatePicker from '../components/DatePicker.vue'
   import HelloTest from '../components/HelloTest.vue'
- 
+  import StoreData from '@/components/StoreData.vue'
+
  export default {
    name: 'page1',
    components: {
    HelloTest,
-   DatePicker
+   DatePicker,
+   StoreData
    }
  }
  </script>
