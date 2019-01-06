@@ -4,7 +4,7 @@ import App from './App.vue'
 import Buefy from 'buefy'
 import 'buefy/dist/buefy.css'
 import router from './router'
-import store from './store'
+import store from './store/'
 
 Vue.use(Buefy)
 

@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import TodosService from './services/TodosService';
+import TodosService from '../services/TodosService';
 
 Vue.use(Vuex)
 

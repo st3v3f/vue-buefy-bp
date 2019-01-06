@@ -16,7 +16,6 @@ export default {
   },
 
   mounted () {
-    // this.$store.dispatch('films/fetchMoveies');
   }
 }
 </script>
