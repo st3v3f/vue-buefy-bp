@@ -1,4 +1,8 @@
 <template>
+<div>
+    <section>
+    <SimpleTable/>
+  </section>
   <section>
   <div class="columns">
     <div class="column">
@@ -18,8 +22,11 @@
       <StoreData/>
     </div>
   </div>
+
+
   </section>
 
+  </div>
 </template>
 
 
@@ -27,13 +34,15 @@
   import DatePicker from '../components/DatePicker.vue'
   import HelloTest from '../components/HelloTest.vue'
   import StoreData from '@/components/StoreData.vue'
+  import SimpleTable from '@/components/SimpleTable.vue'
 
  export default {
    name: 'page1',
    components: {
    HelloTest,
    DatePicker,
-   StoreData
+   StoreData,
+   SimpleTable
    }
  }
  </script>
