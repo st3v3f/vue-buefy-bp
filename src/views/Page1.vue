@@ -1,6 +1,9 @@
 <template>
 <div>
-    <section>
+  <section>
+    <Carousel/>
+  </section>
+  <section>
     <SimpleTable/>
   </section>
   <section>
@@ -35,6 +38,7 @@
   import HelloTest from '../components/HelloTest.vue'
   import StoreData from '@/components/StoreData.vue'
   import SimpleTable from '@/components/SimpleTable.vue'
+  import Carousel from '@/components/Carousel.vue'
 
  export default {
    name: 'page1',
@@ -42,7 +46,8 @@
    HelloTest,
    DatePicker,
    StoreData,
-   SimpleTable
+   SimpleTable,
+   Carousel
    }
  }
  </script>
